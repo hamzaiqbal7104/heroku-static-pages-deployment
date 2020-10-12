@@ -1,0 +1,52 @@
+#Header{
+
+    background-color: #00ffff;
+    text-align: center;
+}
+#Menu{
+
+    background-color: #00aaff;
+    
+}
+#Menu li{
+    text-transform: capitalize;
+    display: inline;
+    padding: 1rem;
+    
+}
+ul{
+    list-style-type: none;
+}
+div{
+
+    
+    padding: 10px;
+    margin: 5px;
+}
+.Container {
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+  
+  .Container > div {
+    background-color: #00fa0d;
+    
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+  }
+  #left{
+      width: 30%;
+  }
+  #main{
+      width: 40%;
+  }
+  #right{
+      width: 30%;
+  }
+  #footer{
+      background-color: #01d2ff;
+text-align: center;      
+  }
