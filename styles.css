@@ -1,6 +1,7 @@
 #Header{
 
     background-color: #00ffff;
+    color: red;
     text-align: center;
 }
 #Menu{
@@ -12,17 +13,44 @@
     text-transform: capitalize;
     display: inline;
     padding: 1rem;
-    
 }
 ul{
     list-style-type: none;
 }
-div{
-
-    
+div{ 
     padding: 10px;
     margin: 5px;
 }
+
+#Menu a:hover{
+
+    color: #00ff0d;
+    text-decoration: none;
+    font-size: 2em;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0000ff;
+    font-size: 50px;
+  }
+  
+
+  #About{
+    background-color: #00aaff;
+    text-align: center;
+  }
+
 .Container {
     display: flex;
     flex-wrap: nowrap;
@@ -46,7 +74,45 @@ div{
   #right{
       width: 30%;
   }
-  #footer{
+
+  #Gallary{
+    background-color: #00aaff;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  #Footer{
       background-color: #01d2ff;
-text-align: center;      
+      text-align: center;      
   }
